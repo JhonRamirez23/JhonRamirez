@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', () => {
 
   const interval = setInterval(() => {
@@ -6,6 +7,5 @@ document.addEventListener('DOMContentLoaded', () => {
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
   }, 5000);
-});
-
+});*/
 

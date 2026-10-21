@@ -1,0 +1,7 @@
+# Documentos y agentes
+/docs
+AGENTS.md
+
+# Archivos de sistema
+.DS_Store
+
