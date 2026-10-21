@@ -1,11 +1,11 @@
-$(document).ready(function () {
+/* Legacy countdown removed.
   let clock;
 
   // Obtiene la fecha y hora actual
   let currentDate = new Date();
 
   // Ajusta la fecha y hora actual a la zona horaria de Colombia
-  let targetDate = moment.tz("2025-07-01 15:00", "America/Bogota");
+  let targetDate = moment.tz("2026-11-01 15:00", "America/Bogota");
 
   // Calcula la diferencia entre la fecha objetivo y la fecha actual
   let diff = targetDate / 1000 - currentDate.getTime() / 1000;
@@ -45,4 +45,19 @@ $(document).ready(function () {
       }, 1000);
     }
   }
-});
+*/
+
+(() => {
+  const toggle = document.querySelector('.menu-toggle');
+  const navigation = document.querySelector('#main-nav');
+  const links = document.querySelectorAll('.main-nav a');
+  if (!toggle || !navigation) return;
+  toggle.addEventListener('click', () => {
+    const isOpen = navigation.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+  links.forEach((link) => link.addEventListener('click', () => {
+    navigation.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }));
+})();
