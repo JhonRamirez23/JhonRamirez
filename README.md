@@ -64,7 +64,7 @@ La barra de acciones se oculta automáticamente al imprimir y el documento utili
 - [Backend Node](https://github.com/JhonRamirez23/backend-node) — CRUD de usuarios.
 - [Gestión de tareas · Frontend](https://github.com/JhonRamirez23/GestionTareas-Frontend) — Angular 19.
 - [Gestión de tareas · Backend](https://github.com/JhonRamirez23/gestionTareas) — Sequelize y configuración CORS.
-- [Prueba Codesa](https://github.com/JhonRamirez23/prueba_codesa) — Java y Spring Boot.
+- [Sistema de Gestión de Boletería](https://github.com/JhonRamirez23/boleteria_spring_boot) — Java y Spring Boot.
 
 ## Contacto
 
